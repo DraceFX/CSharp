@@ -1,0 +1,21 @@
+C:\Users\Drace\Desktop\SkillBox\Module 11\bin\Debug\net7.0-windows\Module 11.exe
+C:\Users\Drace\Desktop\SkillBox\Module 11\bin\Debug\net7.0-windows\Module 11.deps.json
+C:\Users\Drace\Desktop\SkillBox\Module 11\bin\Debug\net7.0-windows\Module 11.runtimeconfig.json
+C:\Users\Drace\Desktop\SkillBox\Module 11\bin\Debug\net7.0-windows\Module 11.dll
+C:\Users\Drace\Desktop\SkillBox\Module 11\bin\Debug\net7.0-windows\Module 11.pdb
+C:\Users\Drace\Desktop\SkillBox\Module 11\obj\Debug\net7.0-windows\Module 11.csproj.AssemblyReference.cache
+C:\Users\Drace\Desktop\SkillBox\Module 11\obj\Debug\net7.0-windows\MainWindow.g.cs
+C:\Users\Drace\Desktop\SkillBox\Module 11\obj\Debug\net7.0-windows\App.g.cs
+C:\Users\Drace\Desktop\SkillBox\Module 11\obj\Debug\net7.0-windows\Module 11_MarkupCompile.cache
+C:\Users\Drace\Desktop\SkillBox\Module 11\obj\Debug\net7.0-windows\Module 11_MarkupCompile.lref
+C:\Users\Drace\Desktop\SkillBox\Module 11\obj\Debug\net7.0-windows\MainWindow.baml
+C:\Users\Drace\Desktop\SkillBox\Module 11\obj\Debug\net7.0-windows\Module 11.g.resources
+C:\Users\Drace\Desktop\SkillBox\Module 11\obj\Debug\net7.0-windows\Module 11.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Drace\Desktop\SkillBox\Module 11\obj\Debug\net7.0-windows\Module 11.AssemblyInfoInputs.cache
+C:\Users\Drace\Desktop\SkillBox\Module 11\obj\Debug\net7.0-windows\Module 11.AssemblyInfo.cs
+C:\Users\Drace\Desktop\SkillBox\Module 11\obj\Debug\net7.0-windows\Module 11.csproj.CoreCompileInputs.cache
+C:\Users\Drace\Desktop\SkillBox\Module 11\obj\Debug\net7.0-windows\Module 11.dll
+C:\Users\Drace\Desktop\SkillBox\Module 11\obj\Debug\net7.0-windows\refint\Module 11.dll
+C:\Users\Drace\Desktop\SkillBox\Module 11\obj\Debug\net7.0-windows\Module 11.pdb
+C:\Users\Drace\Desktop\SkillBox\Module 11\obj\Debug\net7.0-windows\Module 11.genruntimeconfig.cache
+C:\Users\Drace\Desktop\SkillBox\Module 11\obj\Debug\net7.0-windows\ref\Module 11.dll

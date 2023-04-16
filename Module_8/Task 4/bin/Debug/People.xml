@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Persons>
+  <Person name="ФИО человека">
+    <Address>
+      <Street>Название улицы</Street>
+      <HouseNumber>Номер дома</HouseNumber>
+      <FlatNumber>Номер квартиры</FlatNumber>
+    </Address>
+    <Phones>
+      <MobilePhone>8999999999999</MobilePhone>
+      <FlatPhone>123-45-67</FlatPhone>
+    </Phones>
+  </Person>
+  <Person name="ФИО человека">
+    <Address>
+      <Street>Название улицы</Street>
+      <HouseNumber>Номер дома</HouseNumber>
+      <FlatNumber>Номер квартиры</FlatNumber>
+    </Address>
+    <Phones>
+      <MobilePhone>8999999999999</MobilePhone>
+      <FlatPhone>123-45-67</FlatPhone>
+    </Phones>
+  </Person>
+  <Person name="ФИО человека">
+    <Address>
+      <Street>Название улицы</Street>
+      <HouseNumber>Номер дома</HouseNumber>
+      <FlatNumber>Номер квартиры</FlatNumber>
+    </Address>
+    <Phones>
+      <MobilePhone>8999999999999</MobilePhone>
+      <FlatPhone>123-45-67</FlatPhone>
+    </Phones>
+  </Person>
+</Persons>

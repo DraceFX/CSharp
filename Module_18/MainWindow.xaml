@@ -1,0 +1,69 @@
+﻿<Window x:Class="Module_18.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Module_18"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="640*"/>
+            <ColumnDefinition Width="160*"/>
+        </Grid.ColumnDefinitions>
+        <DataGrid x:Name="grideView"
+                  Margin="10,0,10,0"
+                  ItemsSource="{Binding}"
+                  IsReadOnly="True"
+                  AutoGenerateColumns="False">
+            
+            <DataGrid.Columns>
+                <DataGridTextColumn x:Name="type"
+                                    Header="Тип"
+                                    Binding="{Binding Type}"
+                                    IsReadOnly="True"/>
+                
+                <DataGridTextColumn x:Name="animal"
+                                    Header="Животное"
+                                    Binding="{Binding Animal}"
+                                    IsReadOnly="True"/>
+
+                <DataGridTextColumn x:Name="sex"
+                                    Header="Пол"
+                                    Binding="{Binding Sex}"
+                                    IsReadOnly="True"/>
+
+                <DataGridTextColumn x:Name="weight"
+                                    Header="Вес (кг)"
+                                    Binding="{Binding Weight}"
+                                    IsReadOnly="True"/>
+            </DataGrid.Columns>
+            <DataGrid.ContextMenu>
+                <ContextMenu>
+                    <MenuItem Header="Удалить" Click="MenuDeleteClick"/>
+                    <MenuItem Header="Изменить" Click="MenuChangeClick"/>
+                </ContextMenu>
+            </DataGrid.ContextMenu>
+                      
+        </DataGrid>
+        
+        <Button x:Name="AddBT"
+            Grid.Column="1" 
+            Content="Добавить" 
+            HorizontalAlignment="Center" 
+            VerticalAlignment="Top" 
+            Margin="0,30,0,0" 
+            Height="50" Width="120" 
+            FontSize="18" Click="AddAnimalButtonClick"/>
+        
+        <Button x:Name="SaveBT"
+            Grid.Column="1" 
+            Content="Сохранить" 
+            HorizontalAlignment="Center" 
+            VerticalAlignment="Top"
+            Margin="0,90,0,0" 
+            Height="50" Width="120" 
+            FontSize="18"/>
+
+    </Grid>
+</Window>

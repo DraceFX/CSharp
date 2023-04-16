@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "hNl43waOLkvPMCHK+65fZGtEmCssE3XWvwuUn7VLvvixHGg77sGaVwNmhB9EC8IACVhK7CDTjo2hpdxAZIoevQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Drace\\Desktop\\SkillBox\\Module 13\\Module 13.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Drace\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

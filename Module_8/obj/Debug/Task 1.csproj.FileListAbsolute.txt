@@ -1,0 +1,11 @@
+C:\Users\Drace\Desktop\SkillBox\Module 8\bin\Debug\Module 8.exe.config
+C:\Users\Drace\Desktop\SkillBox\Module 8\bin\Debug\Module 8.exe
+C:\Users\Drace\Desktop\SkillBox\Module 8\bin\Debug\Module 8.pdb
+C:\Users\Drace\Desktop\SkillBox\Module 8\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Drace\Desktop\SkillBox\Module 8\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Drace\Desktop\SkillBox\Module 8\obj\Debug\Task 1.csproj.AssemblyReference.cache
+C:\Users\Drace\Desktop\SkillBox\Module 8\obj\Debug\Task 1.csproj.SuggestedBindingRedirects.cache
+C:\Users\Drace\Desktop\SkillBox\Module 8\obj\Debug\Task 1.csproj.CoreCompileInputs.cache
+C:\Users\Drace\Desktop\SkillBox\Module 8\obj\Debug\Task 1.csproj.CopyComplete
+C:\Users\Drace\Desktop\SkillBox\Module 8\obj\Debug\Module 8.exe
+C:\Users\Drace\Desktop\SkillBox\Module 8\obj\Debug\Module 8.pdb

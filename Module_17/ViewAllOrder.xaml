@@ -1,0 +1,38 @@
+﻿<Window x:Class="Module_17.ViewAllOrder"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Module_17"
+        mc:Ignorable="d"
+        Title="Просмотр всех заказов клиента" 
+        Height="250" Width="400">
+    <Grid>
+        <DataGrid x:Name="gridViewUser"
+                  IsSynchronizedWithCurrentItem="True"
+                  SelectionMode="Single"
+                  ItemsSource="{Binding}"
+                  IsReadOnly= "True"
+                  AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn x:Name="ID"
+                                    Binding="{Binding id}"
+                                    Header="ID"
+                                    IsReadOnly="True"/>
+                <DataGridTextColumn x:Name="email"
+                                    Binding="{Binding email}"
+                                    Header="Email"
+                                    IsReadOnly="True"/>
+                <DataGridTextColumn x:Name="productCode"
+                                    Binding="{Binding productCode}"
+                                    Header="Код товара"
+                                    IsReadOnly="True"/>
+                <DataGridTextColumn x:Name="productName"
+                                    Binding="{Binding productName}"
+                                    Header="Наименование товара"
+                                    IsReadOnly="True"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+    </Grid>
+</Window>

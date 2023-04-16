@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Хранилище MSSQLLocalModule_17Model" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="TableUser">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="secondName" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="firstName" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="lastName" Type="nvarchar" MaxLength="30" Nullable="false" />
+    <Property Name="phoneNumber" Type="nvarchar" MaxLength="12" />
+    <Property Name="email" Type="nvarchar" MaxLength="40" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="Хранилище MSSQLLocalModule_17ModelContainer">
+    <EntitySet Name="TableUser" EntityType="Self.TableUser" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

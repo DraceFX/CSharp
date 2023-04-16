@@ -1,0 +1,54 @@
+﻿<Window x:Class="Module_17.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Module_17"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <DataGrid x:Name="gridView"
+                  IsSynchronizedWithCurrentItem="True"
+                  SelectionMode="Single"
+                  ItemsSource="{Binding}"
+                  IsReadOnly= "True"
+                  CurrentCellChanged="GVCurrentCellChanged"
+                  CellEditEnding="GVCellEditEnding"
+                  AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn x:Name="ID"
+                                    Binding="{Binding id}"
+                                    Header="ID"
+                                    IsReadOnly="True"/>
+                <DataGridTextColumn x:Name="secondName"
+                                    Binding="{Binding secondName}"
+                                    Header="Фамилия"
+                                    IsReadOnly="True"/>
+                <DataGridTextColumn x:Name="firstName"
+                                    Binding="{Binding firstName}"
+                                    Header="Имя"
+                                    IsReadOnly="True"/>
+                <DataGridTextColumn x:Name="lastName"
+                                    Binding="{Binding lastName}"
+                                    Header="Отчество"
+                                    IsReadOnly="True"/>
+                <DataGridTextColumn x:Name="phoneNumber"
+                                    Binding="{Binding phoneNumber}"
+                                    Header="Номер телефона"
+                                    IsReadOnly="True"/>
+                <DataGridTextColumn x:Name="email"
+                                    Binding="{Binding email}"
+                                    Header="Email"
+                                    IsReadOnly="True"/>
+            </DataGrid.Columns>
+            <DataGrid.ContextMenu>
+                <ContextMenu>
+                    <MenuItem Header="Добавить" Click="MenuItemAddClick"/>
+                    <MenuItem Header="Удалить" Click="MenuItemDeleteClick"/>
+                    <MenuItem Header="Просмотр заказов" Click="MenuItemShowOrderClick"/>
+                </ContextMenu>
+            </DataGrid.ContextMenu>
+        </DataGrid>
+
+    </Grid>
+</Window>

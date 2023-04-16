@@ -1,0 +1,93 @@
+﻿<Window x:Class="Module_18.AddNewAnimal"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Module_18"
+        mc:Ignorable="d"
+        Title="Добавить животное" Height="250" Width="400">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <TextBlock HorizontalAlignment="Center" 
+                   VerticalAlignment="Center"
+                   TextWrapping="Wrap" 
+                   Text="Тип" FontSize="20" Width="180"/>
+
+        <TextBlock HorizontalAlignment="Center" 
+                   VerticalAlignment="Center"
+                   Grid.Row="1"
+                   TextWrapping="Wrap" 
+                   Text="Животное" FontSize="20" Width="180" />
+
+        <TextBlock HorizontalAlignment="Center" 
+                   VerticalAlignment="Center"
+                   Grid.Row="2"
+                   TextWrapping="Wrap" 
+                   Text="Пол" FontSize="20" Width="180" />
+
+        <TextBlock HorizontalAlignment="Center" 
+                   VerticalAlignment="Center"
+                   Grid.Row="3"
+                   TextWrapping="Wrap" 
+                   Text="Вес (кг)" FontSize="20" Width="180"/>
+
+        <TextBox x:Name="typeTB"
+                 Grid.Column="1" 
+                 HorizontalAlignment="Center" 
+                 TextWrapping="Wrap" 
+                 VerticalAlignment="Center" 
+                 Width="180" Height="30" FontSize="16"/>
+
+        <TextBox x:Name="animalTB"
+                 Grid.Column="1" 
+                 Grid.Row="1"
+                 HorizontalAlignment="Center" 
+                 TextWrapping="Wrap" 
+                 VerticalAlignment="Center" 
+                 Width="180" Height="30" FontSize="16"/>
+
+        <TextBox x:Name="sexTB"
+                 Grid.Column="1" 
+                 Grid.Row="2"
+                 HorizontalAlignment="Center" 
+                 TextWrapping="Wrap" 
+                 VerticalAlignment="Center" 
+                 Width="180" Height="30" FontSize="16"/>
+
+        <TextBox x:Name="weightTB"
+                 Grid.Column="1" 
+                 Grid.Row="3"
+                 HorizontalAlignment="Center" 
+                 TextWrapping="Wrap"  
+                 VerticalAlignment="Top" 
+                 Width="180" Height="30" FontSize="16" Margin="0,14,0,0"/>
+
+        <Button x:Name="addAnimalButton"
+                Content="Добавить" 
+                Grid.Row="4" 
+                HorizontalAlignment="Center" 
+                VerticalAlignment="Center" 
+                Height="30" Width="120" 
+                FontSize="16"/>
+
+        <Button x:Name="cancelButton"
+                Content="Отмена" 
+                Grid.Row="4" 
+                HorizontalAlignment="Center" 
+                VerticalAlignment="Center" 
+                Height="30" Width="120" 
+                FontSize="16" Grid.Column="1"/>
+
+    </Grid>
+</Window>

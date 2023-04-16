@@ -1,0 +1,12 @@
+C:\Users\Drace\Desktop\SkillBox\Module 14\LogLibrary\bin\Debug\net7.0-windows\LogLibrary.deps.json
+C:\Users\Drace\Desktop\SkillBox\Module 14\LogLibrary\bin\Debug\net7.0-windows\LogLibrary.dll
+C:\Users\Drace\Desktop\SkillBox\Module 14\LogLibrary\bin\Debug\net7.0-windows\LogLibrary.pdb
+C:\Users\Drace\Desktop\SkillBox\Module 14\LogLibrary\obj\Debug\net7.0-windows\LogLibrary.csproj.AssemblyReference.cache
+C:\Users\Drace\Desktop\SkillBox\Module 14\LogLibrary\obj\Debug\net7.0-windows\LogLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Drace\Desktop\SkillBox\Module 14\LogLibrary\obj\Debug\net7.0-windows\LogLibrary.AssemblyInfoInputs.cache
+C:\Users\Drace\Desktop\SkillBox\Module 14\LogLibrary\obj\Debug\net7.0-windows\LogLibrary.AssemblyInfo.cs
+C:\Users\Drace\Desktop\SkillBox\Module 14\LogLibrary\obj\Debug\net7.0-windows\LogLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Drace\Desktop\SkillBox\Module 14\LogLibrary\obj\Debug\net7.0-windows\LogLibrary.dll
+C:\Users\Drace\Desktop\SkillBox\Module 14\LogLibrary\obj\Debug\net7.0-windows\refint\LogLibrary.dll
+C:\Users\Drace\Desktop\SkillBox\Module 14\LogLibrary\obj\Debug\net7.0-windows\LogLibrary.pdb
+C:\Users\Drace\Desktop\SkillBox\Module 14\LogLibrary\obj\Debug\net7.0-windows\ref\LogLibrary.dll

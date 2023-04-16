@@ -1,0 +1,15 @@
+C:\Users\Drace\Desktop\SkillBox\Module 14\UserLibrary\bin\Debug\net7.0-windows\UserLibrary.deps.json
+C:\Users\Drace\Desktop\SkillBox\Module 14\UserLibrary\bin\Debug\net7.0-windows\UserLibrary.dll
+C:\Users\Drace\Desktop\SkillBox\Module 14\UserLibrary\bin\Debug\net7.0-windows\UserLibrary.pdb
+C:\Users\Drace\Desktop\SkillBox\Module 14\UserLibrary\bin\Debug\net7.0-windows\LogLibrary.dll
+C:\Users\Drace\Desktop\SkillBox\Module 14\UserLibrary\bin\Debug\net7.0-windows\LogLibrary.pdb
+C:\Users\Drace\Desktop\SkillBox\Module 14\UserLibrary\obj\Debug\net7.0-windows\UserLibrary.csproj.AssemblyReference.cache
+C:\Users\Drace\Desktop\SkillBox\Module 14\UserLibrary\obj\Debug\net7.0-windows\UserLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Drace\Desktop\SkillBox\Module 14\UserLibrary\obj\Debug\net7.0-windows\UserLibrary.AssemblyInfoInputs.cache
+C:\Users\Drace\Desktop\SkillBox\Module 14\UserLibrary\obj\Debug\net7.0-windows\UserLibrary.AssemblyInfo.cs
+C:\Users\Drace\Desktop\SkillBox\Module 14\UserLibrary\obj\Debug\net7.0-windows\UserLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Drace\Desktop\SkillBox\Module 14\UserLibrary\obj\Debug\net7.0-windows\UserLibrary.csproj.CopyComplete
+C:\Users\Drace\Desktop\SkillBox\Module 14\UserLibrary\obj\Debug\net7.0-windows\UserLibrary.dll
+C:\Users\Drace\Desktop\SkillBox\Module 14\UserLibrary\obj\Debug\net7.0-windows\refint\UserLibrary.dll
+C:\Users\Drace\Desktop\SkillBox\Module 14\UserLibrary\obj\Debug\net7.0-windows\UserLibrary.pdb
+C:\Users\Drace\Desktop\SkillBox\Module 14\UserLibrary\obj\Debug\net7.0-windows\ref\UserLibrary.dll

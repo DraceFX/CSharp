@@ -1,0 +1,8 @@
+C:\Users\Drace\Desktop\SkillBox\Module 10\bin\Debug\Module 10.exe.config
+C:\Users\Drace\Desktop\SkillBox\Module 10\bin\Debug\Module 10.exe
+C:\Users\Drace\Desktop\SkillBox\Module 10\bin\Debug\Module 10.pdb
+C:\Users\Drace\Desktop\SkillBox\Module 10\obj\Debug\Module 10.csproj.AssemblyReference.cache
+C:\Users\Drace\Desktop\SkillBox\Module 10\obj\Debug\Module 10.csproj.SuggestedBindingRedirects.cache
+C:\Users\Drace\Desktop\SkillBox\Module 10\obj\Debug\Module 10.csproj.CoreCompileInputs.cache
+C:\Users\Drace\Desktop\SkillBox\Module 10\obj\Debug\Module 10.exe
+C:\Users\Drace\Desktop\SkillBox\Module 10\obj\Debug\Module 10.pdb

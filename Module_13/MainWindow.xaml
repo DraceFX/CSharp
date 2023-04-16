@@ -1,0 +1,60 @@
+﻿<Window x:Class="Module_12.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Module_12"
+        mc:Ignorable="d"
+        Title="MainWindow" 
+        MinHeight="450" 
+        MinWidth="800"
+        MaxHeight="700"
+        MaxWidth="1050">
+    <Grid>
+        <Grid.RowDefinitions>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="2.5*"/>
+        </Grid.ColumnDefinitions>
+
+        <ListView Grid.Column="1" Margin="15, 15,15,200" x:Name="LVDepos">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Номер счёта" DisplayMemberBinding="{Binding Path= BankAcc}"/>
+                    <GridViewColumn Header="Состояние счёта" DisplayMemberBinding="{Binding Path= BankAccType}"/>
+                    <GridViewColumn Header="Остаток" DisplayMemberBinding="{Binding Path= INN}"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+
+        <ListView Grid.Column="1" Margin="15, 250,15,15" x:Name="LVLogs">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Время" DisplayMemberBinding="{Binding Path= Time}"/>
+                    <GridViewColumn Header="Пользователь" DisplayMemberBinding="{Binding Path= FIO}"/>
+                    <GridViewColumn Header="Действие" DisplayMemberBinding="{Binding Path= Action}"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+
+        <ComboBox HorizontalAlignment="Center" Margin="0,20,0,0" VerticalAlignment="Top" Width="200" Height="22" x:Name="ActiveUser" SelectionChanged="ActiveUserSelectionChanged"/>
+        <Button Content="Откыть счёт" HorizontalAlignment="Left" Margin="15,60,0,0" VerticalAlignment="Top" Width="85" Height="30" Click="CreateBankAccountButton"/>
+        <Button Content="Закрыть счёт" HorizontalAlignment="Right" Margin="0,60,15,0" VerticalAlignment="Top" Width="85" Height="30" Click="DeleteBankAccountButton"/>
+
+        <Button Content="Сделать счёт депозитным" HorizontalAlignment="Center" Margin="0,110,0,0" VerticalAlignment="Top" Height="30" Width="190" Click="MakeDepositBankAccButton"/>
+        <Button Content="Сделать счёт недепозитным" HorizontalAlignment="Center" Margin="0,150,0,0" VerticalAlignment="Top" Height="30" Width="190" Click="MakeNonDepositBankAccButton"/>
+
+        <TextBlock HorizontalAlignment="Center" Margin="0,190,0,0" TextWrapping="Wrap" Text="Перевод на другой счёт" VerticalAlignment="Top" FontSize="18" FontWeight="Bold"/>
+        <TextBox HorizontalAlignment="Center" Margin="0,220,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="190" x:Name="TopUpTB"/>
+        <Button Content="Перевод" HorizontalAlignment="Center" Margin="0,245,0,0" VerticalAlignment="Top" Height="30" Width="70" Click="TransferOtherDeposButton"/>
+
+        <TextBlock HorizontalAlignment="Center" Margin="0,280,0,0" TextWrapping="Wrap" Text="Перевод другому клиенту" VerticalAlignment="Top" FontSize="16" FontWeight="Bold"/>
+        <TextBlock HorizontalAlignment="Center" Margin="0,305,0,0" TextWrapping="Wrap" Text="Выберите клиента" VerticalAlignment="Top" FontSize="16"/>
+        <ComboBox HorizontalAlignment="Center" Margin="0,330,0,0" VerticalAlignment="Top" Width="200" x:Name="ToUserCB"/>
+        
+        <TextBlock HorizontalAlignment="Center" Margin="0,350,0,0" TextWrapping="Wrap" Text="Введите сумму" VerticalAlignment="Top" FontSize="16"/>
+        <TextBox HorizontalAlignment="Center" Margin="0,375,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="190" x:Name="PayToUserTB"/>
+        <Button Content="Перевод" HorizontalAlignment="Center" Margin="0,400,0,0" VerticalAlignment="Top" Width="70" Height="30" Click="PayToUserButton"/>
+    </Grid>
+</Window>

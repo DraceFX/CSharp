@@ -1,0 +1,23 @@
+C:\Users\Drace\Desktop\SkillBox\Module 12\bin\Debug\net7.0-windows\Module 12.exe
+C:\Users\Drace\Desktop\SkillBox\Module 12\bin\Debug\net7.0-windows\Module 12.deps.json
+C:\Users\Drace\Desktop\SkillBox\Module 12\bin\Debug\net7.0-windows\Module 12.runtimeconfig.json
+C:\Users\Drace\Desktop\SkillBox\Module 12\bin\Debug\net7.0-windows\Module 12.dll
+C:\Users\Drace\Desktop\SkillBox\Module 12\bin\Debug\net7.0-windows\Module 12.pdb
+C:\Users\Drace\Desktop\SkillBox\Module 12\obj\Debug\net7.0-windows\Module 12.csproj.AssemblyReference.cache
+C:\Users\Drace\Desktop\SkillBox\Module 12\obj\Debug\net7.0-windows\MainWindow.g.cs
+C:\Users\Drace\Desktop\SkillBox\Module 12\obj\Debug\net7.0-windows\App.g.cs
+C:\Users\Drace\Desktop\SkillBox\Module 12\obj\Debug\net7.0-windows\Module 12_MarkupCompile.cache
+C:\Users\Drace\Desktop\SkillBox\Module 12\obj\Debug\net7.0-windows\Module 12_MarkupCompile.lref
+C:\Users\Drace\Desktop\SkillBox\Module 12\obj\Debug\net7.0-windows\MainWindow.baml
+C:\Users\Drace\Desktop\SkillBox\Module 12\obj\Debug\net7.0-windows\Module 12.g.resources
+C:\Users\Drace\Desktop\SkillBox\Module 12\obj\Debug\net7.0-windows\Module 12.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Drace\Desktop\SkillBox\Module 12\obj\Debug\net7.0-windows\Module 12.AssemblyInfoInputs.cache
+C:\Users\Drace\Desktop\SkillBox\Module 12\obj\Debug\net7.0-windows\Module 12.AssemblyInfo.cs
+C:\Users\Drace\Desktop\SkillBox\Module 12\obj\Debug\net7.0-windows\Module 12.csproj.CoreCompileInputs.cache
+C:\Users\Drace\Desktop\SkillBox\Module 12\obj\Debug\net7.0-windows\Module 12.dll
+C:\Users\Drace\Desktop\SkillBox\Module 12\obj\Debug\net7.0-windows\refint\Module 12.dll
+C:\Users\Drace\Desktop\SkillBox\Module 12\obj\Debug\net7.0-windows\Module 12.pdb
+C:\Users\Drace\Desktop\SkillBox\Module 12\obj\Debug\net7.0-windows\Module 12.genruntimeconfig.cache
+C:\Users\Drace\Desktop\SkillBox\Module 12\obj\Debug\net7.0-windows\ref\Module 12.dll
+C:\Users\Drace\Desktop\SkillBox\Module 12\bin\Debug\net7.0-windows\Newtonsoft.Json.dll
+C:\Users\Drace\Desktop\SkillBox\Module 12\obj\Debug\net7.0-windows\Module 12.csproj.CopyComplete

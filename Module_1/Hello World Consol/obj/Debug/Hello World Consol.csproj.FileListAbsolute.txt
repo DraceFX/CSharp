@@ -1,0 +1,8 @@
+C:\Users\Drace\Desktop\SkillBox\Hello World Consol\Hello World Consol\bin\Debug\Hello World Consol.exe.config
+C:\Users\Drace\Desktop\SkillBox\Hello World Consol\Hello World Consol\bin\Debug\Hello World Consol.exe
+C:\Users\Drace\Desktop\SkillBox\Hello World Consol\Hello World Consol\bin\Debug\Hello World Consol.pdb
+C:\Users\Drace\Desktop\SkillBox\Hello World Consol\Hello World Consol\obj\Debug\Hello World Consol.csproj.AssemblyReference.cache
+C:\Users\Drace\Desktop\SkillBox\Hello World Consol\Hello World Consol\obj\Debug\Hello World Consol.csproj.SuggestedBindingRedirects.cache
+C:\Users\Drace\Desktop\SkillBox\Hello World Consol\Hello World Consol\obj\Debug\Hello World Consol.csproj.CoreCompileInputs.cache
+C:\Users\Drace\Desktop\SkillBox\Hello World Consol\Hello World Consol\obj\Debug\Hello World Consol.exe
+C:\Users\Drace\Desktop\SkillBox\Hello World Consol\Hello World Consol\obj\Debug\Hello World Consol.pdb

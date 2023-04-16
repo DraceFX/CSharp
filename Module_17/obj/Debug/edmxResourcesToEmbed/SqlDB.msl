@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище MSSQLLocalModule_17ModelContainer" CdmEntityContainer="MSSQLLocalModule_16Entities">
+    <EntitySetMapping Name="TableUser">
+      <EntityTypeMapping TypeName="MSSQLLocalModule_17Model.TableUser">
+        <MappingFragment StoreEntitySet="TableUser">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="secondName" ColumnName="secondName" />
+          <ScalarProperty Name="firstName" ColumnName="firstName" />
+          <ScalarProperty Name="lastName" ColumnName="lastName" />
+          <ScalarProperty Name="phoneNumber" ColumnName="phoneNumber" />
+          <ScalarProperty Name="email" ColumnName="email" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
